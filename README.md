@@ -1,2 +1,2 @@
-# Computer-Science-Club-at-UVU.github.io
-UVU Computer Science Club Website
+# UVU CS Club Website
+Utah Valley University Computer Science Club website
