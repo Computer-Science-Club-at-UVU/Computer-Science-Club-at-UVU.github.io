@@ -1,3 +1,5 @@
 # UVU CS Club Website
 
-Utah Valley University Computer Science Club website
+The official Utah Valley University Computer Science Club website.
+
+*Developed by Jacob Banuelos*
