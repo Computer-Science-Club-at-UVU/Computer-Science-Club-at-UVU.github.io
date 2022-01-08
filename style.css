@@ -18,3 +18,15 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+
+#home-title-lg {
+  text-shadow: 3px 4px 3px black;
+}
+
+#home-title-sm {
+  text-shadow: 2px 3px 3px black;
+}
+
+#about p {
+  padding: 0vh 10vw 0vh 10vw;
+}

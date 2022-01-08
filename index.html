@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -51,42 +51,39 @@
   <!-- Header with full-height image -->
   <header class="bgimg-1 w3-display-container w3-grayscale-min w3-text-white" id="home">
     <div class="w3-display-left" style="padding:48px">
-      <span class="w3-jumbo w3-hide-small">Donec sed aliquet est</span><br>
-      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Donec sed aliquet est</span><br>
-      <span class="w3-large">Etiam varius justo sed lacus ornare dictum. Nullam tincidunt ante.</span>
-      <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Etiam urna velit tempor cursus</a></p>
+      <span class="w3-jumbo w3-hide-small" id="home-title-lg">Utah Valley University<br>Computer Science Club</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium" id="home-title-sm">Utah Valley University<br>Computer Science Club</span><br>
+      <p><a href="#about" class="w3-button w3-black w3-padding-large w3-large w3-opacity w3-hover-opacity-off">Learn more</a></p>
     </div>
-    <!-- Uncomment this to display social media icons
+    <!-- Uncomment the i tags below to display social media icons -->
     <div class="w3-display-bottomleft w3-large" style="padding:24px 48px">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <!-- <a href=""><i class="fa fa-facebook-square w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-instagram w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-snapchat-ghost w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-pinterest-p w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-twitter w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-linkedin w3-hover-opacity">&nbsp;</i></a> -->
+      <a href="https://discord.gg/HDRE7Ng5VA"><i class="fa fa-discord-alt w3-hover-opacity">&nbsp;</i></a>
     </div>
-    -->
   </header>
 
   <!-- About Section -->
   <section class="w3-container w3-black" style="padding:128px 16px" id="about">
     <h3 class="w3-center">ABOUT US</h3>
-    <p class="w3-center w3-large">Phasellus nisl tortor, ullamcorper rutrum ultrices in, suscipit id quam. Vestibulum hendrerit et metus vel viverra.<br>
-      Praesent sed tortor semper ante ultrices dignissim. Fusce aliquam congue tortor suscipit pulvinar.<br>
-      Suspendisse id orci in ipsum vehicula vestibulum ac id sapien. Cras tempor nulla nibh, id porta odio sodales in.<br>
-      Fusce pellentesque finibus tincidunt.
+    <p class="w3-center w3-large">Welcome to the official website of the Computer Science Club at Utah Valley University!
+      After a brief period of inactivity, the club is up and running again thanks to the current club president, Clayton Oaks.
+      We currently get together every Monday at 7:00 pm in Room CS 404 at Utah Valley University.
+      Feel free to come to any of our meetings where you could get the chance to participate in one of our workshops,
+      project/startup pitches, networking/LinkedIn/recruiting events, or listen to one of our guest speakers!</p>
     </p>
-    <div class="w3-row-padding w3-center" style="margin-top:64px">
-      
-    </div>
   </section>
 
   <!-- Promo Section -->
   <section class="w3-container w3-dark-grey" style="padding:128px 16px">
     <div class="w3-row-padding">
       <div class="w3-col m10">
-        <h3>Aliquam tempor justo.</h3>
-        <p>Sed in neque neque. Integer pharetra iaculis diam, laoreet tristique libero ullamcorper ut. Vivamus viverra accumsan ex.</p>
+        <h3>Our goal is you.</h3>
+        <p class="w3-large">We hope to provide you with the opportunities that simply aren't available during class hours.</p>
       </div>
     </div>
   </section>
@@ -94,14 +91,60 @@
   <!-- Events Section -->
   <section class="w3-container w3-black" style="padding:128px 16px" id="events">
     <h3 class="w3-center">EVENTS</h3>
-    <p class="w3-center w3-large">Mauris ac scelerisque augue. Vestibulum varius lacinia sapien ac porttitor. Pellentesque semper venenatis lectus at accumsan.<br>
-      Suspendisse potenti. Morbi sed tempor urna, nec aliquet nisl. Sed massa sem, eleifend eu ex nec, gravida congue ligula.<br>
-      Curabitur nec tellus ultrices enim volutpat tempor viverra et tellus. Praesent quis sem quis magna sodales rutrum sit amet at eros.<br>
-      Mauris urna dolor, vehicula quis congue nec, accumsan a nisl. Nam faucibus semper ex sit amet lacinia.<br>
-      Sed egestas sollicitudin libero id rutrum.
-    </p>
+    <!-- Container for Event cards -->
     <div class="w3-row-padding" style="margin-top:64px">
-      
+
+      <!-- First Event card -->
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="/imgs/new-relic-logo.png" alt="John" style="width:100%">
+          <div class="w3-container">
+            <h3>Krystal Mitchell</h3>
+            <p class="w3-opacity">Guest Speaker - Dec 6, 2021</p>
+            <p>We will be hosting Senior Software Engineer Krystal Mitchell for a Q&A! She works on increasing growth and revenue at New Relic.
+               Krystal graduated from UVU with a degree in UX Design & Development, with an emphasis in Web and App Development.
+               She will be answering all your questions on topics from technical interviews to user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Second Event card -->
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="/imgs/podium-tour.jpg" alt="Jane" style="width:100%">
+          <div class="w3-container">
+            <h3>Podium</h3>
+            <p class="w3-opacity">Company Tour - Nov 9, 2021</p>
+            <p>Join us on our visit to Podium in Lehi, Utah! If you don't know about Podium, they make messaging tools for businesses.
+              They raised a $125MM Series C last year, led by Y Combinator, valuing them at $1.5B. We will be touring one of the two facilities on site.
+              The meeting will be on Tuesday instead of Monday.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Third Event card -->
+      <div class="w3-col l3 m6 w3-margin-bottom" style="display: none;">
+        <div class="w3-card">
+          <img src="/imgs/file-name.jpg" alt="Alt text" style="width:100%">
+          <div class="w3-container">
+            <h3>Title</h3>
+            <p class="w3-opacity">Subtitle</p>
+            <p>Description</p>
+          </div>
+        </div>
+      </div>
+      <!-- Fourth Event card -->
+      <div class="w3-col l3 m6 w3-margin-bottom" style="display: none;">
+        <div class="w3-card">
+          <img src="/imgs/file-name.jpg" alt="Alt text" style="width:100%">
+          <div class="w3-container">
+            <h3>Title</h3>
+            <p class="w3-opacity">Subtitle</p>
+            <p>Description</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -109,8 +152,8 @@
   <section class="w3-container w3-dark-grey w3-padding-64">
     <div class="w3-row-padding">
       <div class="w3-col m12">
-        <h3>Nunc eros odio.</h3>
-        <p>Nunc porttitor massa a lorem suscipit, sit amet vehicula ex imperdiet. Sed a leo arcu. Mauris turpis.</p>
+        <h3>A welcoming environment.</h3>
+        <p class="w3-large">We encourage all concentrations of computer science and related fields — cybersecurity, information technology, software engineering, and more — to join!</p>
       </div>
     </div>
   </section>
@@ -146,16 +189,16 @@
   <!-- Footer -->
   <footer class="w3-center w3-black w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    <!-- Uncomment this to display social media icons
+    <!-- Uncomment the i tags below to display social media icons -->
     <div class="w3-xlarge w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <!-- <a href=""><i class="fa fa-facebook-square w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-instagram w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-snapchat-ghost w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-pinterest-p w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-twitter w3-hover-opacity">&nbsp;</i></a> -->
+      <!-- <a href=""><i class="fa fa-linkedin w3-hover-opacity">&nbsp;</i></a> -->
+      <a href="https://discord.gg/HDRE7Ng5VA"><i class="fa fa-discord-alt w3-hover-opacity">&nbsp;</i></a>
     </div>
-    -->
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   </footer>
 
