@@ -26,3 +26,7 @@ body, html {
 #home-title-sm {
   text-shadow: 2px 3px 3px black;
 }
+
+#about p {
+  padding: 0vh 10vw 0vh 10vw;
+}
